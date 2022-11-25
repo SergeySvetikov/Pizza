@@ -7,6 +7,7 @@
     height: 138px;
     padding: 0 64px;
     box-sizing: border-box;
+    border-bottom: 1px solid silver;
 }
 
 .logoBlock{
@@ -20,8 +21,7 @@
 }
 
 .title{
-    font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.01em;
@@ -29,8 +29,13 @@
     color: #181818;
 }
 
+.miniTitle{
+    font-weight: 400;
+}
+
 .cartBar{
     cursor: pointer;
+    font-weight: 700;
     color: white;
     display: flex;
     background-color: #FE5F1E;
@@ -43,19 +48,31 @@
 
 .cartSum{
     display: flex;
+    font-weight: 700;
+    align-items: center;
     &::after{
         margin-left: 12px;
         content: "";
         display: block;
         height: 100%;
-        width: 1px;
+        width: 1.5px;
         background-color: white;
+        border-radius: 2px;
     }
 }
 
 .cartQuantity{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
     margin-left: 12px;
+    justify-content: space-between;
 }
+
+svg{
+    margin-right: 6px;
+}
+
 
 
 
