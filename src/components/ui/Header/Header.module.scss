@@ -69,10 +69,15 @@
     justify-content: space-between;
 }
 
-svg{
+.iconWrapper{
+    height: 18px;
+    width: 18px;
     margin-right: 6px;
+    svg{
+        height: 100%;
+        width: 100%;
+    }
 }
-
 
 
 
